@@ -62,7 +62,7 @@ async function sendEmails() {
 			const mailOptions = {
 				from: EMAIL_USER,
 				to: email,
-				subject: "Автоматическое сообщение",
+				subject: "Сотрудничество, комм. предложение",
 				html: `
                     <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; width: 600px; margin: 50px auto; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
     <div style="text-align: center; margin-bottom: 20px;">
@@ -85,8 +85,8 @@ async function sendEmails() {
         </a>
     </div>
     <div style="text-align: center; margin-bottom: 20px;">
-        <a href="https://cloud.mail.ru/public/pXL5/bae6epFuz" style="display: inline-block; padding: 15px 30px; color: #fff; background-color: #CC65E8; text-decoration: none; border-radius: 10px; font-size: 16px;">
-            Презентация продукта
+        <a href="https://forms.yandex.ru/u/6759e28e068ff08dfb5b7b85/" style="display: inline-block; padding: 15px 30px; color: #fff; background-color: #CC65E8; text-decoration: none; border-radius: 10px; font-size: 16px;">
+            Записаться на демо
         </a>
     </div>
     <div style="font-size: 12px; color: #999; margin: 20px; text-align: center;">
